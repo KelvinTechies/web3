@@ -1,0 +1,186 @@
+.wel_flex{
+    display: flex;
+    background-color: rgb(9, 9, 9);
+    height: 100%;
+    padding: 2rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flxW{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+}
+
+.wel{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 230px;
+}
+.wel_l{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+.button button{
+    width:500px;
+    border-radius: 20px;
+    padding: .6rem;
+    background-color: #2952e3;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.button{
+    margin-top: 1rem;
+}
+
+.button button:hover{
+    background-color: #2546bd;;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.Reliability{
+    border: 1px solid white;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+
+.security{
+    border: 1px solid white;
+    padding: 1rem;
+    text-align: center;
+}
+.ethereum{
+    border: 1px solid white;
+    padding: 1rem;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.web3{
+    border: 1px solid white;
+    padding: 1rem;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.low_fees{
+    border: 1px solid white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.BlockChain{
+    border: 1px solid white;
+    padding: 1rem;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+.eth_card{
+    background-color:#ff99b9;
+    background-image:
+    radial-gradient(at 64% 25%, hsla(21,97%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 67% 57%, hsla(54,60%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 31% 9%, hsla(84,84%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 47% 75%, hsla(81,84%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 50% 45%, hsla(357,83%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 10% 15%, hsla(318,61%,60%,1) 0px, transparent 50%),
+    radial-gradient(at 63% 16%, hsla(143,99%,65%,1) 0px, transparent 50%);
+    
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.f_right{
+    width: 50%;
+}
+.ethF{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: .5rem;
+}
+
+.ethf{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.peth{
+    font-weight: 700;
+    vertical-align: bottom;
+    vertical-align: baseline;
+    bottom: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba( 59, 75, 84, 0.8 );
+    /* background: rgba( 31, 38, 135, 0.37); */
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    /* backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px ); */
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+input{
+    background-color: transparent;
+    padding: 1rem;
+    width: 90%;
+    border: none;
+    outline: none;
+    margin: 1rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.d1{
+    border: 1px solid lightgray;
+    width: 100%;
+}
+
+.sBtn{
+    width: 100%;
+    font-weight: 600;
+    background-color: #3d4f7c;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+}
