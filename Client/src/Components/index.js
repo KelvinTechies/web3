@@ -1,0 +1,6 @@
+export {default as Loader} from './Loader/Loader'
+export {default as Welcome} from './Welcome/Welcome'
+export {default as Trasactions} from './Trasactions/Trasactions'
+export {default as Services} from './Services/Services'
+export {default as NavBar} from './NavBar/NavBar'
+export {default as Footer} from './Footer/Footer'
